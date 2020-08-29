@@ -18,17 +18,20 @@ class Projects extends Component {
                     { /* Project 1 */ }
 
 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project 1</CardTitle>
+                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>Calculator App</CardTitle>
                 
                 <CardText>
                     sh;hfihsdiohfoishshdd
                     nlsjildjl
-                    hsd
+                    hsdF
                 </CardText>
                 <CardActions border>
+                    <a href="https://github.com/rockysingh3/React-Calculator">
                     <Button colored>GitHub</Button>
-                    <Button colored>CodePen</Button>
+                    </a>
+                    <a href="https://react-calcculator.herokuapp.com/">
                     <Button colored>LiveDemo</Button>
+                    </a>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
@@ -98,10 +101,6 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>VueJS</Tab>
-                    <Tab>MongoDB</Tab>
                     <Tab>React</Tab>
                 </Tabs>
 

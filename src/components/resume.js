@@ -5,7 +5,10 @@ import Skills from './skills'
 import { Grid, Cell } from 'react-mdl'
 
 class Resume extends Component {
+
+    
     render() {
+        
         return (
             <div>
                 <Grid>
@@ -58,19 +61,26 @@ class Resume extends Component {
                         <Experience
                         
                         startYear={2017}
-                        endYear={2021}
+                        endYear={2019}
                         jobName="NYC Office of Environmental Remediation (OER) | NYC, NY"
-                        jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the "
+                        jobtitle="Software Developer Intern"
+                        jobDescription="•	Responsible for managing concept-to-launch; the new website for the Mayor’s Office of Environmental Remediation.
+                        •	Ensured the technical feasibility and optimum functioning of design features and integration with TeamSite (CMS). 
+                        •	Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed. 
+                        "
                         />
 
 <Experience
                         
                         startYear={2017}
-                        endYear={2021}
-                        jobName="Second Job"
-                        jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the "
+                        endYear={2017}
+                        jobName="Docflight | New York, New York"
+                        jobtitle="Software Developer Intern"
+                        jobDescription="•	Developed Advanced SQL queries and stored procedures to generate customer information.
+                        •	Designed, implemented, and integrated LinkedIn API for doctor information.
+                        •	Designed and developed views/templates on top of PHP, using Bootstrap templating engine.
+                        •	Created and implemented custom CSS grid system with CSS media queries for mobile responsiveness.
+                        "
                         />
 
                         <hr style={{borderTop: '3px solid #e22947'}}/>
