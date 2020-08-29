@@ -92,7 +92,7 @@ class Projects extends Component {
               WatchList Movie App
             </CardTitle>
 
-            <CardText>sh;hfihsdiohfoishshdd nlsjildjl hsd</CardText>
+            <CardText>something about the app</CardText>
             <CardActions border>
               <a href="https://github.com/rockysingh3/WatchList">
                 <Button colored>GitHub</Button>
