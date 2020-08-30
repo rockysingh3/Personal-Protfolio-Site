@@ -97,7 +97,9 @@ class Projects extends Component {
               <a href="https://github.com/rockysingh3/WatchList">
                 <Button colored>GitHub</Button>
               </a>
-              <Button colored>LiveDemo</Button>
+              <a href="https://immense-cliffs-82307.herokuapp.com/">
+                <Button colored>LiveDemo</Button>
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
