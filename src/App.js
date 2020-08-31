@@ -30,18 +30,14 @@ function App() {
     //             <Main />
     //         </Content>
     //     </Layout>
+    // style={{ height: "300px", position: "relative" }}
     // </div>
 
-    <div style={{ height: "300px", position: "relative" }} className="demo-big-content">
+    <div  className="demo-big-content">
       <Layout fixedHeader>
         <Header
         className="header-color"
-          title={
-            <span>
-              <span style={{ color: "#ddd" }}></span>
-              <strong>Rocky Singh's Protfolio</strong>
-            </span>
-          }
+        title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Protfolio</Link>} 
         >
           <Navigation>
             <Link to="/resume">Resume</Link>
