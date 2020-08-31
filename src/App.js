@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
+
+import { Layout, Header, Navigation, Content } from "react-mdl";
 import { Link } from "react-router-dom";
+import Main from "./components/main";
+
 
 function App() {
   return (
@@ -37,7 +39,7 @@ function App() {
       <Layout fixedHeader>
         <Header
         className="header-color"
-        title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Protfolio</Link>} 
+        title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Protfolio</Link>}
         >
           <Navigation>
             <Link to="/resume">Resume</Link>
@@ -52,6 +54,7 @@ function App() {
         </Content>
       </Layout>
     </div>
+
   );
 }
 
